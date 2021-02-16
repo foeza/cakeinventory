@@ -1,2 +1,9 @@
 tmp/*
 *tmp/
+
+database.php
+Config/database.php
+Config/database.php.default
+Config/bootstrap.php
+webroot/img/view/
+.htaccess
