@@ -7,3 +7,4 @@ Config/database.php.default
 Config/bootstrap.php
 webroot/img/view/
 .htaccess
+/Config/database.php
