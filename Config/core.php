@@ -332,6 +332,9 @@
  */
 $engine = 'File';
 
+// setting timezone
+date_default_timezone_set('Asia/Jakarta');
+
 // In development mode, caches should expire quickly.
 $duration = '+999 days';
 if (Configure::read('debug') > 0) {
@@ -365,4 +368,3 @@ Cache::config('_cake_model_', array(
 	'duration' => $duration
 ));
 
-date_default_timezone_set('Asia/Jakarta');
